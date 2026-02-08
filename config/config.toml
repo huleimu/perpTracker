@@ -1,0 +1,38 @@
+# 跟单配置文件
+
+# 数据库配置
+database_url = "mysql://perpTrader_user:perpTrader@localhost:3306/perpTrader"
+
+# 网络配置
+network = "mainnet"
+
+[copy_trading]
+# 目标监控地址
+target_user = "0xa1f7d829c741a2754023b3edf16f887a6ac81ab3"
+
+# 私钥配置
+private_key = "be455c66e8519f93ea6b09e03490774f31084e1ae67fa89dca3c74e5b5e8a50e"
+
+# 钱包地址
+wallet = "0x6a3204b43ea7D3e79E54168bb0C70CD668Ecd1d3"
+
+# 跟单参数
+copy_ratio = 1
+max_position_value = 10000
+enabled_assets = ["ETH"]
+
+# 止盈止损
+take_profit_percentage = 0.05  # 止盈
+stop_loss_percentage = 0.04   # 止损
+
+# 策略选择：conservative(保守), aggressive(激进)
+strategy_type = "conservative"
+
+# 订单类型：Market (市价), Limit (限价)
+order_type = "Limit"
+
+# 仓位类型：isolated(逐仓), cross(全仓)
+margin_type = "isolated"
+
+# 杠杆倍数：1-20 (HyperLiquid 推荐范围)
+leverage = 5
