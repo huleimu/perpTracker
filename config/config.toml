@@ -8,13 +8,13 @@ network = "mainnet"
 
 [copy_trading]
 # 目标监控地址
-target_user = "0xa1f7d829c741a2754023b3edf16f887a6ac81ab3"
+target_user = "xxx"
 
 # 私钥配置
-private_key = "be455c66e8519f93ea6b09e03490774f31084e1ae67fa89dca3c74e5b5e8a50e"
+private_key = "xxx"
 
 # 钱包地址
-wallet = "0x6a3204b43ea7D3e79E54168bb0C70CD668Ecd1d3"
+wallet = "xxx"
 
 # 跟单参数
 copy_ratio = 1
