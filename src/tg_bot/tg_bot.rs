@@ -166,8 +166,8 @@ pub fn create_instance(bot_token: &str, chat_id: &str) -> BotInstance {
 /// Get a preconfigured Telegram bot instance
 pub fn get_instance() -> BotInstance {
     let keys: (String, String) = (
-        "8008094543:AAHVq93pL6dqzf020BvaM6TONIyGNazX9e0".to_string(), 
-        "-4917394923 ".to_string()
+        "xxx".to_string(), 
+        "xxx ".to_string()
     );
     create_instance(&keys.0, &keys.1)
 }
